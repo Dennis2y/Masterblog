@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "author": "John Doe",
+        "title": "First Post",
+        "content": "This is my first post."
+    },
+    {
+        "id": 2,
+        "author": "Jane Doe",
+        "title": "Second Post",
+        "content": "This is another post."
+    },
+    {
+        "title": "Father's day",
+        "content": "Father\u2019s Day is a special day to honor and celebrate fathers and father figures. It\u2019s a time to show appreciation for their love, support, and guidance. Many people give cards, gifts, or spend quality time with their dads to say \"thank you\" for everything they do. Celebrated on the third Sunday of June in many countries, Father's Day reminds us how important dads are in our lives.\r\n\r\n"
+    }
+]
