@@ -2,18 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Add New Post</title>
+    <title>Add Post</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>➕ Add New Post</h1>
+    <h1>Add New Post</h1>
     <form method="POST">
-        <label>Title:</label><br>
-        <input type="text" name="title" required><br><br>
-        <label>Content:</label><br>
-        <textarea name="content" rows="6" required></textarea><br><br>
-        <button type="submit">Add Post</button>
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author" placeholder="Enter your name">
+
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" placeholder="Post title" required>
+
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" rows="6" placeholder="Write your post here..." required></textarea>
+
+        <input type="submit" value="Add Post">
     </form>
-    <a href="{{ url_for('index') }}">← Back to Home</a>
+
+    <br>
+    <div style="text-align: center;">
+        <a href="{{ url_for('index') }}">← Back to Home</a>
+    </div>
 </body>
 </html>

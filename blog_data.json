@@ -12,7 +12,9 @@
         "content": "This is another post."
     },
     {
-        "title": "Father's day",
-        "content": "Father\u2019s Day is a special day to honor and celebrate fathers and father figures. It\u2019s a time to show appreciation for their love, support, and guidance. Many people give cards, gifts, or spend quality time with their dads to say \"thank you\" for everything they do. Celebrated on the third Sunday of June in many countries, Father's Day reminds us how important dads are in our lives.\r\n\r\n"
+        "id": 3,
+        "author": "Dennis",
+        "title": "My First Flask Blog Post",
+        "content": "Today I built my very first blog app using Flask! \r\nIt can show posts, add new ones, and even update them.\r\nThis is just the beginning of my journey as a software engineer, and I'm excited to keep learning more every day."
     }
 ]

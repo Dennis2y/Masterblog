@@ -1,41 +1,103 @@
+/* static/style.css */
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
-    background-color: #f9f9f9;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fef9f4;
     color: #333;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fffaf0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
+    text-align: center;
+    color: #ff8c42;
+}
+
+.add-button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.add-button a {
+    background-color: #ffbd69;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.add-button a:hover {
+    background-color: #ffa94d;
+}
+
+.post {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.post h2 {
     color: #444;
 }
 
-a {
+.actions a {
+    margin-right: 10px;
+    color: #0077cc;
     text-decoration: none;
-    color: #007BFF;
 }
 
-a:hover {
+.actions a:hover {
     text-decoration: underline;
 }
 
-input, textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 4px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+.empty-msg {
+    text-align: center;
+    color: #888;
 }
 
-button {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+
+.author {
+    font-size: 16px;
+    color: #666;
+    margin-top: -10px;
+    margin-bottom: 20px;
 }
 
-button:hover {
-    background-color: #0056b3;
+.post-content {
+    background-color: #fffef5;
+    border: 1px solid #ffe8cc;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #ffd6a5;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #ffb347;
 }
